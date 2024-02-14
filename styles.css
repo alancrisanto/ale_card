@@ -7,9 +7,10 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  /* height: 100vh; */
+  height: 100vh;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   padding: 1rem;
+
 }
 
 main {
