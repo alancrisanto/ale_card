@@ -1,0 +1,446 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Riot&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  /* height: 100vh; */
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+main img {
+  max-width: 150px;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fe5b5d;
+  font-family: "Dancing Script", cursive;
+  font-size: clamp(3rem, 1.5vw, 4rem);
+  font-weight: 700;
+  text-align: center;
+}
+
+.letters {
+  margin-top: 5rem;
+}
+
+.rotating-text p:first-child {
+  color: #b24142;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.cssload-main {
+  /* position: absolute; */
+  content: '';
+  /* left: 50%; */
+  transform: translate(0%, 0%);
+  /* -o-transform: translate(-100%, -240%);
+  -ms-transform: translate(-100%, -240%);
+  -webkit-transform: translate(-100%, -240%);
+  -moz-transform: translate(-100%, -240%); */
+}
+
+.cssload-main * {
+  font-size: 62px;
+}
+
+.cssload-heart {
+  animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -o-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  top: 50%;
+  content: '';
+  /* left: 50%; */
+  position: absolute;
+}
+
+.cssload-heartL {
+  width: 1em;
+  height: 1em;
+  border: 1px solid rgb(252, 0, 101);
+  background-color: rgb(252, 0, 101);
+  content: '';
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -o-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  transform: translate(-28px, -27px);
+  -o-transform: translate(-28px, -27px);
+  -ms-transform: translate(-28px, -27px);
+  -webkit-transform: translate(-28px, -27px);
+  -moz-transform: translate(-28px, -27px);
+}
+
+.cssload-heartR {
+  width: 1em;
+  height: 1em;
+  border: 1px solid rgb(252, 0, 101);
+  background-color: rgb(252, 0, 101);
+  content: '';
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  transform: translate(28px, -27px);
+  -o-transform: translate(28px, -27px);
+  -ms-transform: translate(28px, -27px);
+  -webkit-transform: translate(28px, -27px);
+  -moz-transform: translate(28px, -27px);
+  animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -o-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+.cssload-square {
+  width: 1em;
+  height: 1em;
+  border: 1px solid rgb(252, 0, 101);
+  background-color: rgb(252, 0, 101);
+  position: relative;
+  display: block;
+  content: '';
+  transform: scale(1) rotate(-45deg);
+  -o-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  -webkit-transform: scale(1) rotate(-45deg);
+  -moz-transform: scale(1) rotate(-45deg);
+  animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -o-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+.cssload-shadow {
+  top: 97px;
+  /* left: 50%; */
+  content: '';
+  position: relative;
+  display: block;
+  bottom: -.5em;
+  width: 1em;
+  height: .24em;
+  background-color: rgb(215, 215, 215);
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 50%;
+  animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -o-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+@keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    transform: scale(0.5) rotate(-45deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(-45deg);
+  }
+}
+
+@-o-keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    -o-transform: scale(0.5) rotate(-45deg);
+  }
+
+  100% {
+    -o-transform: scale(1) rotate(-45deg);
+  }
+}
+
+@-ms-keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    -ms-transform: scale(0.5) rotate(-45deg);
+  }
+
+  100% {
+    -ms-transform: scale(1) rotate(-45deg);
+  }
+}
+
+@-webkit-keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    -webkit-transform: scale(0.5) rotate(-45deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(-45deg);
+  }
+}
+
+@-moz-keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    -moz-transform: scale(0.5) rotate(-45deg);
+  }
+
+  100% {
+    -moz-transform: scale(1) rotate(-45deg);
+  }
+}
+
+@keyframes cssload-heart {
+  50% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+@-o-keyframes cssload-heart {
+  50% {
+    -o-transform: rotate(360deg);
+  }
+
+  100% {
+    -o-transform: rotate(720deg);
+  }
+}
+
+@-ms-keyframes cssload-heart {
+  50% {
+    -ms-transform: rotate(360deg);
+  }
+
+  100% {
+    -ms-transform: rotate(720deg);
+  }
+}
+
+@-webkit-keyframes cssload-heart {
+  50% {
+    -webkit-transform: rotate(360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+  }
+}
+
+@-moz-keyframes cssload-heart {
+  50% {
+    -moz-transform: rotate(360deg);
+  }
+
+  100% {
+    -moz-transform: rotate(720deg);
+  }
+}
+
+@keyframes cssload-heartL {
+  60% {
+    transform: scale(0.4);
+  }
+}
+
+@-o-keyframes cssload-heartL {
+  60% {
+    -o-transform: scale(0.4);
+  }
+}
+
+@-ms-keyframes cssload-heartL {
+  60% {
+    -ms-transform: scale(0.4);
+  }
+}
+
+@-webkit-keyframes cssload-heartL {
+  60% {
+    -webkit-transform: scale(0.4);
+  }
+}
+
+@-moz-keyframes cssload-heartL {
+  60% {
+    -moz-transform: scale(0.4);
+  }
+}
+
+@keyframes cssload-heartR {
+  40% {
+    transform: scale(0.4);
+  }
+}
+
+@-o-keyframes cssload-heartR {
+  40% {
+    -o-transform: scale(0.4);
+  }
+}
+
+@-ms-keyframes cssload-heartR {
+  40% {
+    -ms-transform: scale(0.4);
+  }
+}
+
+@-webkit-keyframes cssload-heartR {
+  40% {
+    -webkit-transform: scale(0.4);
+  }
+}
+
+@-moz-keyframes cssload-heartR {
+  40% {
+    -moz-transform: scale(0.4);
+  }
+}
+
+@keyframes cssload-shadow {
+  50% {
+    transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
+}
+
+@-o-keyframes cssload-shadow {
+  50% {
+    -o-transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
+}
+
+@-ms-keyframes cssload-shadow {
+  50% {
+    -ms-transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
+}
+
+@-webkit-keyframes cssload-shadow {
+  50% {
+    -webkit-transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
+}
+
+@-moz-keyframes cssload-shadow {
+  50% {
+    -moz-transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
+}
+
+
+/* -------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Lato:600);
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+} */
+
+.rotating-text {
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  /* transform: translateX(-80px); */
+
+  p {
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+
+    .word {
+      position: absolute;
+      display: flex;
+      opacity: 0;
+
+      .letter {
+        transform-origin: center center 25px;
+
+        &.out {
+          transform: rotateX(90deg);
+          transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+        }
+
+        &.in {
+          transition: 0.38s ease;
+        }
+
+        &.behind {
+          transform: rotateX(-90deg);
+        }
+      }
+    }
+  }
+}
+
+/* / palette: https://flatuicolors.com/palette/defo */
+.alizarin {
+  color: #e74c3c;
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.peter-river {
+  color: #3498db;
+}
+
+.emerald {
+  color: #2ecc71;
+}
+
+.sun-flower {
+  color: #f1c40f;
+}
+
+
+@media screen and (min-width: 760px) {
+  .main-title {
+    flex-direction: row;
+  }
+
+  .rotating-text {
+    display: block;
+    transform: translateX(-80px);
+  }
+}
