@@ -34,9 +34,10 @@ main img {
 
 h1 {
   color: #fe5b5d;
-  font-family: "Dancing Script", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Protest Riot", sans-serif;
   font-size: clamp(3rem, 1.5vw, 4rem);
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -45,7 +46,7 @@ h1 {
 }
 
 .rotating-text p:first-child {
-  color: #b24142;
+  color: #a941ad;
   font-family: "Protest Riot", sans-serif;
   font-weight: 400;
   font-style: normal;
